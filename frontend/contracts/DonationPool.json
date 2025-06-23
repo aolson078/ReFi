@@ -1,0 +1,17 @@
+[
+  {
+    "inputs": [{"internalType": "address", "name": "usdcAddress", "type": "address"}],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "poolBalances",
+    "outputs": [
+      {"internalType": "uint256", "name": "ethBalance", "type": "uint256"},
+      {"internalType": "uint256", "name": "usdcBalance", "type": "uint256"}
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
